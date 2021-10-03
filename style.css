@@ -1,0 +1,31 @@
+.container-fluid {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    height: 100vh;
+}
+.nc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+img {
+    height: 150px;
+    object-fit: scale-down;
+    border: 1px solid black;
+}
+
+.adidas {
+    width: 100%;
+}
+.amazon {
+    width: 100%;
+}
+.beats {
+    width: 70%;
+    align-self: center;
+}
+.apple {
+    width: 70%;
+    align-self: center;
+}
